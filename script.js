@@ -4,7 +4,7 @@ const keyWaiting = document.querySelector("#key-waiting")
 const keyDialog = document.querySelector("#key-dialog")
 const keyResult = document.querySelector("#key-result")
 
-const apiUrlBody = "https://script.google.com/macros/s/AKfycbzNHWReJwQFDVvLaZ-_W39G72G6fZX495LTKPkk9hLyGSvhlhUvgM4OsAfZnY3qerSZVg/exec"
+const apiUrlBody = "https://hq-keyserver.netlify.app"
 const product = window.location.hash.substring(1)
 
 let count = 30;
