@@ -4,7 +4,7 @@ const keyWaiting = document.querySelector("#key-waiting")
 const keyDialog = document.querySelector("#key-dialog")
 const keyResult = document.querySelector("#key-result")
 
-const apiUrlBody = "https://hq-keyserver.netlify.app"
+const apiUrlBody = "https://hq-keyserver.netlify.app/api"
 const product = window.location.hash.substring(1)
 
 let count = 30;
